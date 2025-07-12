@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
-import Navbar from '../components/Navbar'
-import HeroSection from '../home/HeroSection'
-import Feature from '../home/Feature';
 import Contact from './Contact';
+
 
 const Home = () => {
     useEffect(() => {
