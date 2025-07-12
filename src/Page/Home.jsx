@@ -39,7 +39,7 @@ const Home = () => {
 
             {/* Hero section slide bar */}
             <div>
-                <div className="max-w-full mx-auto relative h-[250px] md:h-[580px] border-cyan-500 border-2">
+                <div className="max-w-full mx-auto relative h-[320px] md:h-[580px]">
 
                     {/* Welcome Message */}
                     {/* <div className="absolute inset-0 flex items-center justify-center z-10">
@@ -47,7 +47,7 @@ const Home = () => {
                             Welcome to Jamia Barkate Siddiqa
                         </h1>
                     </div> */}
-                    
+
                     <div className="absolute inset-0 flex items-center justify-center z-10">
                         <h1 className="text-2xl md:text-6xl font-extrabold text-white text-center bg-black bg-opacity-40  rounded-md">
                             Welcome to Jamia Barkate Siddiqa new
