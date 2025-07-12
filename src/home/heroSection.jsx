@@ -41,7 +41,7 @@ const HeroSection = () => {
                     {/* Slide 3 */}
                     <div className="mySlides hidden relative h-full  ">
                         <div className="absolute top-0 left-0 text-white text-xs p-2 ">3 / 3</div>
-                        <img src="/image/h3.jpg" className="w-full h-full object-cover" alt="Mountains" />
+                        <img src="/image/h4.jpg" className="w-full h-full object-cover" alt="Mountains" />
                         <div className="absolute bottom-2 left-0 text-center text-white text-sm w-full">
                             Caption Three
                         </div>

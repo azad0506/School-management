@@ -39,19 +39,26 @@ const Home = () => {
 
             {/* Hero section slide bar */}
             <div>
-                <div className="max-w-full mx-auto relative h-[580px]">
+                <div className="max-w-full mx-auto relative h-[250px] md:h-[580px] border-cyan-500 border-2">
 
                     {/* Welcome Message */}
-                    <div className="absolute inset-0 flex items-center justify-center z-10">
+                    {/* <div className="absolute inset-0 flex items-center justify-center z-10">
                         <h1 className="text-4xl md:text-6xl font-extrabold text-white text-center animate-fade-in">
                             Welcome to Jamia Barkate Siddiqa
                         </h1>
+                    </div> */}
+                    
+                    <div className="absolute inset-0 flex items-center justify-center z-10">
+                        <h1 className="text-2xl md:text-6xl font-extrabold text-white text-center bg-black bg-opacity-40  rounded-md">
+                            Welcome to Jamia Barkate Siddiqa new
+                        </h1>
                     </div>
+
                     {/* Slide 1 */}
-                    <div className="mySlides hidden relative h-full">
+                    <div className="mySlides hidden relativeh-auto md:h-full">
                         <div className="absolute top-0 left-0 text-white text-xs p-2 ">1 / 3</div>
                         <img
-                            src="/image/h1.jpg"
+                            src="/image/hab1.jpg"
                             className="w-full h-full object-cover"
                             alt="cild"
                         />
@@ -61,19 +68,19 @@ const Home = () => {
                     </div>
 
                     {/* Slide 2 */}
-                    <div className="mySlides hidden relative h-full ">
+                    <div className="mySlides hidden relative h-auto md:h-full ">
                         <div className="absolute top-0 left-0 text-white text-xs p-2 ">2 / 3</div>
                         <img src="/image/h2.jpg"
-                            className="w-full h-full object-cover" alt="child2" />
+                            className="w-full h-full object-center md:object-cover" alt="child2" />
                         <div className="absolute bottom-2 left-0 text-center text-white text-sm w-full">
                             Caption Two
                         </div>
                     </div>
 
                     {/* Slide 3 */}
-                    <div className="mySlides hidden relative h-full  ">
+                    <div className="mySlides hidden relative h-auto md:h-full  ">
                         <div className="absolute top-0 left-0 text-white text-xs p-2 ">3 / 3</div>
-                        <img src="/image/h3.jpg" className="w-full h-full object-cover" alt="Mountains" />
+                        <img src="/image/h5.png" className="w-full h-full object-cover" alt="Mountains" />
                         <div className="absolute bottom-2 left-0 text-center text-white text-sm w-full">
                             Caption Three
                         </div>
@@ -92,10 +99,10 @@ const Home = () => {
 
             {/* About Section */}
             <div>
-                <section className="bg-white py-16 px-4">
+                <section className="bg-white py-1 px-4">
                     <div className="container mx-auto text-center">
                         <h2 className="text-4xl font-bold text-gray-800 mb-6">About Us</h2>
-                        <p className="text-lg  text-gray-600 mb-8 max-w-3xl mx-auto text-justify "  >
+                        <p className="text-base  text-gray-600 mb-8 max-w-3xl mx-auto text-justify "  >
                             Welcome to Jamai Barakati Siddiqua, where we are dedicated to providing exceptional education to young minds. Our mission is to nurture creativity, critical thinking, and a love for learning, empowering students to achieve their full potential. With state-of-the-art facilities and a passionate faculty, we ensure that each student receives personalized attention to foster their academic and personal growth.
                         </p>
                     </div>
@@ -111,12 +118,12 @@ const Home = () => {
 
                         <div className="w-full md:w-1/2 p-4">
                             <h3 className="text-3xl font-semibold text-gray-700 mb-6  text-justify  *:">Our Vision</h3>
-                            <p className="text-lg text-gray-700 mb-6  leading-relaxed ">
+                            <p className="text-base text-gray-700 mb-6  leading-relaxed ">
                                 Our vision is to foster an environment where students are encouraged to think critically, solve problems creatively, and grow into leaders who will make meaningful contributions to society. We aspire to create a space that nurtures curiosity and innovation, empowering each student to take initiative and drive positive change in the world.
                             </p>
 
                             <h3 className="text-3xl font-semibold text-gray-700 mb-6">Our Values</h3>
-                            <ul className="list-inside text-lg text-gray-700 space-y-4">
+                            <ul className="list-inside text-base text-gray-700 space-y-4">
                                 <li className="flex items-center">
                                     <span className="inline-block w-2.5 h-2.5 bg-blue-600 rounded-full mr-3"></span>
                                     Excellence in Education
@@ -138,6 +145,8 @@ const Home = () => {
                     </div>
                 </section>
             </div>
+
+
 
             {/* FEATURE SECTION */}
             <div className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
@@ -273,8 +282,8 @@ const Home = () => {
                 </div>
             </div>
 
-              {/* HEAD AND MEMBER */}
-              <div className="py-16 px-4 bg-white">
+            {/* HEAD AND MEMBER */}
+            <div className="py-16 px-4 bg-white">
                 <div className="container mx-auto text-center mb-12">
                     <h2 className="text-4xl font-bold text-gray-800 mb-6">Meet Our Leadership</h2>
                     <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
@@ -323,10 +332,10 @@ const Home = () => {
                 </div>
 
                 {/* Notes Section */}
-                <div className="container mx-auto mt-12 text-center">
+                <div className="container mx-auto mt-12 ">
                     <h3 className="text-3xl font-bold text-gray-800 mb-6">Important Notes for Students</h3>
                     <div className="bg-gray-200 rounded-lg shadow-lg p-6 max-w-4xl mx-auto">
-                        <ul className="list-disc list-inside text-lg text-gray-600 space-y-4 border-2 border-red-500">
+                        <ul className="list-disc list-outside text-base text-gray-600 space-y-4 ">
                             <li>Always be punctual and prepared for class.</li>
                             <li>Respect your peers and teachers to create a positive learning environment.</li>
                             <li>Stay focused on your studies and strive for excellence in every subject.</li>
