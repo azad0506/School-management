@@ -50,7 +50,9 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className="text-center text-sm mt-6 border-t border-gray-700 pt-4">
-                <p>&copy; 2025 Jamia Barkate Siddiqa. All rights reserved.</p>
+                <p>&copy; 2025 Jamia Barkate Siddiqa. All rights reserved.
+                     Developed by Mohammad Azad.
+                </p>
             </div>
         </footer>
     );
